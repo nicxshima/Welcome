@@ -18,7 +18,7 @@ struct ContentView: View {
                 .font(.title)
                 .border(Color.gray, width : 1)
             Button("Submit Name") {
-            textTitle = "Welcome, \(name)!!"
+            textTitle = "Welcome, \(name)!!!"
             }
             .font(.title2)
             .buttonStyle(.borderedProminent)
